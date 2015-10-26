@@ -78,6 +78,7 @@ namespace AdsDesktop
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //Grupo 38
             var frmReportMenu = new frmReportMenu();
             frmReportMenu.Show();
         }

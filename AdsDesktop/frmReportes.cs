@@ -13,8 +13,10 @@ namespace AdsDesktop
 
         private void frmReportes_Load(object sender, EventArgs e)
         {
+            this.reportViewer1.LocalReport.DataSources.Clear();
             var rptDataSource = new Microsoft.Reporting.WinForms.ReportDataSource("Pacientes", Paciente.GetAll());
             this.reportViewer1.LocalReport.DataSources.Add(rptDataSource);
+            this.reportViewer1.RefreshReport();
             this.reportViewer1.RefreshReport();
         }
 

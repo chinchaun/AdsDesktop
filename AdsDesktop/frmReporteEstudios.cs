@@ -20,14 +20,15 @@ namespace AdsDesktop
 
         private void frmReporteEstudios_Load(object sender, EventArgs e)
         {
+            this.reportViewer2.LocalReport.DataSources.Clear();
             var rptDataSource = new Microsoft.Reporting.WinForms.ReportDataSource("Estudios", Estudio.GetAll());
-            this.reportViewer1.LocalReport.DataSources.Add(rptDataSource);
-            this.reportViewer1.RefreshReport();
+            this.reportViewer2.LocalReport.DataSources.Add(rptDataSource);
+            this.reportViewer2.RefreshReport();
         }
 
         private void reportViewer1_Load(object sender, EventArgs e)
         {
-            this.reportViewer1.RefreshReport();
+            this.reportViewer2.RefreshReport();
         }
     }
 }
