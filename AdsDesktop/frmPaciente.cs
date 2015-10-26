@@ -59,8 +59,28 @@ namespace AdsDesktop
             txtNombre.Text = String.Empty;
             LoadData();
             LoaddvgPacientes();
+            LoadcmbPacientes();
             dvgPacientes.Update();
             dvgPacientes.Refresh();
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            Paciente.Update(Convert.ToInt16(cmbPacientes.SelectedValue), txtActualizarNombre.Text.ToString(), txtActualizarApellido.Text.ToString());
+            txtActualizarApellido.Text = String.Empty;
+            txtActualizarNombre.Text = String.Empty;
+            LoadData();
+            LoaddvgPacientes();
+            LoadcmbPacientes();
+            dvgPacientes.Update();
+            dvgPacientes.Refresh();
+        }
+
+        private void cmbPacientes_SelectedValueChanged(object sender, EventArgs e)
+        {
+            txtActualizarApellido.Text = ((Paciente)cmbPacientes.SelectedItem).Apellido;
+            txtActualizarNombre.Text = ((Paciente)cmbPacientes.SelectedItem).nombre;
+           
         }
     }
 }

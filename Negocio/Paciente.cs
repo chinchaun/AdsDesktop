@@ -13,6 +13,8 @@ namespace Negocio
         public int cod_paciente { get; set; }
         public String nombre { get; set; }
         public String Apellido { get; set; }
+        public String ObraSocial { get; set; }
+        public String Sexo { get; set; }
 
         public static List<Paciente> GetAll()
         {
@@ -36,6 +38,8 @@ namespace Negocio
                     paciente.cod_paciente = Convert.ToInt32(dataReader["cod_paciente"]);
                     paciente.nombre = Convert.ToString(dataReader["nombre"]);
                     paciente.Apellido = Convert.ToString(dataReader["Apellido"]);
+                    paciente.ObraSocial = Convert.ToString(dataReader["obraSocial"]);
+                    paciente.Sexo = Convert.ToString(dataReader["sexo"]);
                     pacientes.Add(paciente);
 
                 }
@@ -66,5 +70,13 @@ namespace Negocio
             var query = "INSERT INTO pacientes (nombre, Apellido, sexo) VALUES( " + "'" + nombre + "'" + ", " + "'" + apellido + "'" + ", 'Femenino')";
             db.Insert(query);
         }
+
+        public static void Update(int cod_paciente, string nombre, string apellido)
+        {
+            string query = "UPDATE pacientes SET nombre=" + "'" + nombre + "'" + ", " + "Apellido = " + "'" + apellido + "'" + " WHERE cod_paciente = " + cod_paciente + ";";
+            DBConnect db = new DBConnect();
+            db.Update(query);
+        }
+
     }
 }
