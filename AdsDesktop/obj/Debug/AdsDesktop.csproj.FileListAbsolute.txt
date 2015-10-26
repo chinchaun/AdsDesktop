@@ -1,0 +1,15 @@
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\bin\Debug\AdsDesktop.exe.config
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\bin\Debug\AdsDesktop.exe
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\bin\Debug\AdsDesktop.pdb
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\bin\Debug\Negocio.dll
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\bin\Debug\Data.dll
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\bin\Debug\MySql.Data.dll
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\bin\Debug\Negocio.pdb
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\bin\Debug\Data.pdb
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\obj\Debug\AdsDesktop.csprojResolveAssemblyReference.cache
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\obj\Debug\AdsDesktop.Principal.resources
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\obj\Debug\AdsDesktop.Properties.Resources.resources
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\obj\Debug\AdsDesktop.csproj.GenerateResource.Cache
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\obj\Debug\AdsDesktop.exe
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\obj\Debug\AdsDesktop.pdb
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\AdsDesktop\obj\Debug\AdsDesktop.frmPaciente.resources

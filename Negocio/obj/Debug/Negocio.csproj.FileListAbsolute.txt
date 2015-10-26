@@ -1,0 +1,8 @@
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\Negocio\bin\Debug\Negocio.dll
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\Negocio\bin\Debug\Negocio.pdb
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\Negocio\bin\Debug\Data.dll
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\Negocio\bin\Debug\MySql.Data.dll
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\Negocio\bin\Debug\Data.pdb
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\Negocio\obj\Debug\Negocio.dll
+c:\users\jeanjacques\documents\visual studio 2015\Projects\AdsDesktop\Negocio\obj\Debug\Negocio.pdb
